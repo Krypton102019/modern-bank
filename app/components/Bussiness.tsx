@@ -3,7 +3,7 @@ import styles, { layout } from "../style"
 import Button from "./Button"
 
 
-const FeatureCard = ({ icon, title, content, index }:{icon:string,title:string,content:string,index:string}) => (
+const FeatureCard = ({ icon, title, content  }:{icon:string,title:string,content:string }) => (
     <div className={`flex flex-row p-6 rounded-[20px]  mb-6 feature-card`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
         <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
@@ -38,7 +38,7 @@ const Bussiness = ()=>{
 
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
-        <FeatureCard key={feature.id} icon={feature.icon} {...feature}   />
+        <FeatureCard key={feature.id}   {...feature}   />
       ))}
     </div>
         </section>
