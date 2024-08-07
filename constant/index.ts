@@ -156,22 +156,22 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    icon: "/instagram.svg"
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: "/facebook.svg",
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: "/twitter.svg",
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    icon: "/linkedin.svg",
     link: "https://www.linkedin.com/",
   },
 ];
@@ -179,18 +179,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: "airbnb.png",
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: "binance.png",
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: "coinbase.png",
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: "dropbox.png",
   },
 ];
