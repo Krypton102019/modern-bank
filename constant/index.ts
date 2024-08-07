@@ -156,7 +156,7 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: "/instagram.svg"
+    icon: "/instagram.svg",
     link: "https://www.instagram.com/",
   },
   {
@@ -179,18 +179,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: "airbnb.png",
+    logo: "/airbnb.png",
   },
   {
     id: "client-2",
-    logo: "binance.png",
+    logo: "/binance.png",
   },
   {
     id: "client-3",
-    logo: "coinbase.png",
+    logo: "/coinbase.png",
   },
   {
     id: "client-4",
-    logo: "dropbox.png",
+    logo: "/dropbox.png",
   },
 ];
